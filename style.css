@@ -1,0 +1,89 @@
+body {
+	background-color: #FFF84E;
+}
+
+.png {
+	position: absolute;
+	width: 1200px;
+	height: 780px;
+	left: 60px;
+	top: -120px;
+}
+.display-3 {
+	position: absolute;
+	width: 700px;
+	height: 37px;
+	left: 380px;
+	top: 420px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 37px;
+	/* identical to box height */
+	color: #303030;
+
+}
+.display-4 {
+	position: absolute;
+    width: 450px;
+    height: 20px;
+    left: 440px;
+    top: 470px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+    /* or 130% */
+
+    text-align: center;
+	color: #1F1F1F;
+
+}
+
+/*for mobile*/
+@media (max-width: 480px) {
+	.png {
+		width: 763px;
+	    height: auto;
+	    background-size: contain;
+	    left: 115px;
+	    top: 62px;
+	}
+
+	.display-3 {
+		left: 293px;
+	    top: 396px;
+	    font-size: 18px;
+	}
+
+	.display-4 {
+		left: 277px;
+    	top: 434px;
+    	font-size: 13px;
+    	width: 418px;
+	}
+}
+
+/*for tablets*/
+@media (min-width: 481px) and (max-width: 1024px) {
+	.png {
+		width: 1331px;
+		height: auto;
+		left: -126px;
+    	top: -70px;
+	}
+
+	.display-3 {
+		left: 219px;
+    	top: 530px;
+    	font-size: 31px;
+	}
+
+	.display-4 {
+		left: 317px;
+    	top: 595px;
+    	font-size: 19px;
+	}
+}
